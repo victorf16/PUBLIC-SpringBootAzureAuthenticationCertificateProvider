@@ -94,4 +94,9 @@
 
 
 ```
+clique em Add endpoint e insira o endereço web da sua aplicação backand  odne o código sera implementado, exemplo, no nosso caso vamos executar nosso arquivo terraform para construir o weball atravé de managed identity
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/584ea7e8-3961-4686-a31a-28b3c20fb086)
 ´´
+
+
+
