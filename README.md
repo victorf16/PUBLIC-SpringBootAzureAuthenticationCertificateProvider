@@ -32,3 +32,66 @@
 
 5 Após navegue até all operations e clique em base 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/1fa7a428-b292-4f31-bdb1-27ea8b540b4c)
+
+´´´´ java
+
+
+
+
+
+<!-- 
+
+    IMPORTANT: 
+
+    - Policy elements can appear only within the <inbound>, <outbound>, <backend> section elements. 
+
+    - To apply a policy to the incoming request (before it is forwarded to the backend service), place a corresponding policy element within the <inbound> section element. 
+
+    - To apply a policy to the outgoing response (before it is sent back to the caller), place a corresponding policy element within the <outbound> section element. 
+
+    - To add a policy, place the cursor at the desired insertion point and select a policy from the sidebar. 
+
+    - To remove a policy, delete the corresponding policy statement from the policy document. 
+
+    - Position the <base> element within a section element to inherit all policies from the corresponding section element in the enclosing scope. 
+
+    - Remove the <base> element to prevent inheriting policies from the corresponding section element in the enclosing scope. 
+
+    - Policies are applied in the order of their appearance, from the top down. 
+
+    - Comments within policy elements are not supported and may disappear. Place your comments between policy elements or at a higher level scope. 
+
+-->
+<policies>
+    <inbound>
+        <base />
+        <authentication-certificate thumbprint="A0C8F954707B196CE31F474ADD0A1FD01AE97567" />
+        <validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Access token is missing or invalid.">
+            <openid-config url="https://login.microsoftonline.com/Seu-Tenant/v2.0/.well-known/openid-configuration" />
+            <issuers>
+                <issuer>https://sts.windows.net/eu-Tenant-ID</issuer>
+            </issuers>
+            <required-claims>
+                <claim name="aud">
+                    <value>Endereço do Client ID do APP backend1</value>
+                </claim>
+            </required-claims>
+        </validate-jwt>
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
+
+
+
+
+
+```
+´´
