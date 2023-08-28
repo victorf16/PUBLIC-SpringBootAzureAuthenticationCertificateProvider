@@ -90,13 +90,18 @@
 </policies>
 
 
+6. CLique em add operation e crie um método POST 
+   ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/a4930f3e-8d7a-48b8-a4bf-247eee4c2862)
 
+7. 
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/0f7dce0b-8180-414d-9be1-2859e72d8af6)
 
 
 ```
-clique em Add endpoint e insira o endereço web da sua aplicação backand  odne o código sera implementado, exemplo, no nosso caso vamos executar nosso arquivo terraform para construir o weball atravé de managed identity
-![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/584ea7e8-3961-4686-a31a-28b3c20fb086)
-´´
-
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 
