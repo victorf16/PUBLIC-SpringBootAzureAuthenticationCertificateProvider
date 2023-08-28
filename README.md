@@ -23,5 +23,7 @@
 1. Implemente o APIM conforme terraform terraform.apim.tf localizados no diretóro te templates de infraestrutura
 2. Após criar o APIM (demora em torno de 25 minutos) você deve criar uma nova API clicando na blade de APIs e criar uma nova API em +Add API ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/74eb6831-ecf0-458a-b8a9-3df010268900)
 
-3.
+3. Após insira as informações necessárioas para o seu entpoint, neste exemplo utilize i o displayname soma
+ ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/cc8d2fc2-07aa-452d-91e7-47d2e1c09875)
+
 
