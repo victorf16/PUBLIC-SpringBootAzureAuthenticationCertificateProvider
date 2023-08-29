@@ -1,4 +1,4 @@
-# Aplicação Cliente, Login com Certificado d utilizando Oauth 2 com azure AD #
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/25ee69c8-01b2-4eac-805c-59d3ddb7d25b)# Aplicação Cliente, Login com Certificado d utilizando Oauth 2 com azure AD #
 
 ## 1 Premissas e considerações
 
@@ -189,8 +189,15 @@
 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/832b8fc6-8266-4a99-93de-7994f45720a6)
 
-26. Copie os valores de "Authorization code grant flow"
+26. Abra o client-app, abra Authentication e clique em Web 
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/4dbd9343-63c8-421a-af16-ffcb54c090ed)
 
+27. Cole os valores em redirection URIs
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/08f2700a-448e-4f94-a01b-22a2056a00ec)
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/7d293487-3b2d-438d-b1e9-e362ffce4c13)
+
+28. 
 
 ```
 function test() {
