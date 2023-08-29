@@ -111,19 +111,23 @@
 11. Após a criação você tera a página conforme abaixo exibida
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/3b76771e-90e5-4270-bf51-d93c65064d47)
 
-12. Acesse a pagina "Expose an API" no menu esquerdo e clique em "Add a scope" no exemplo manteremos, nao iremos alterar o valor do  Application ID URI e utilizaremos conforme sugerido pela microsoft, clique em "Save and continue"
+12. Acesse a pagina "Expose an API" no menu esquerdo e clique em "Add a scope", vocÊ será redirecionado ao menu para adicionar uma nova "URI" no exemplo nao iremos alterar o valor do Application ID URI que será semelhante ao o da figura abaixo, clique em "Save and continue"
 
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/99cc6522-5198-4a03-b16c-faeb9c1c4829)
     
+13. Após clicar em "Save and continue" preencha as informações do escopo conforme abaixo
 
-14. Após criar o backend, abra uma nova aba no navegador e realize o mesmo processo para criarmos o app registration do Cliente, que será nossa API consumidora do APIM, para este app register, digite o nome de sua preferência, no caso deste tutorial utilizei o nome client-app e clique em registrar
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/16fd37b7-f387-4e33-99ef-eddcc485cb5f)
+
+
+15. Após criar o backend, abra uma nova aba no navegador e realize o mesmo processo para criarmos o app registration do Cliente, que será nossa API consumidora do APIM, para este app register, digite o nome de sua preferência, no caso deste tutorial utilizei o nome client-app e clique em registrar
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/58bb97ae-b681-45b8-aa65-019b05d61514)
 
 
-15. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
+16. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
 
   
-16. Após a criação 
+17. Após a criação 
 
 ```
 function test() {
