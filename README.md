@@ -136,12 +136,16 @@
 
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/e4930ea1-5eb0-4cfd-ac47-a2d77fb0b890)
 
-18. Após
+18. Cole o seu Client ID que foi copiado no momento da criação do backend app no campo de busca em "APIs my organization uses" conforme abaixo, 
 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/1cbc7cc4-c19e-4663-850f-2be63cbf4637)
 
   
-18. Após a criação 
+19. Selecione o default e clique em Add permissions
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/1fe20053-b8f1-44ac-989e-854c30c71ea4)
+
+
+20. 
 
 ```
 function test() {
