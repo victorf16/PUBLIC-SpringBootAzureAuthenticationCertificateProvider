@@ -87,36 +87,43 @@
 
 
 6. CLique em add operation e crie um método POST 
-   ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/a4930f3e-8d7a-48b8-a4bf-247eee4c2862)
+ ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/a4930f3e-8d7a-48b8-a4bf-247eee4c2862)
 
 7. Para o passo 7, insira o endereço do WEBAPP backend que ficará protegido pelo APIM, no  caso deste exemplo, inserir o endereço único do seu webapp criado, no meu exemplo http://webapp-dev-apimwebappterraform.azurewebsites.net
   
-
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/0f7dce0b-8180-414d-9be1-2859e72d8af6)
 
 8. Após criar o endpoint, vamos criar ao App BackEnd e o App Client para utilizarmos no APIM, para isso, acesse app registrations no painel de busca do azure e digite app registration e clique para abrir o menu 
 
-   ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/2111a384-21fa-4624-8574-7768bafe6627)
+ ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/2111a384-21fa-4624-8574-7768bafe6627)
 
 9. Apos navegar ate app registrations, crie um novo app registration clicando em "new registration" no sinal de + 
-![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/50bf2066-9e79-41cd-92ba-e4bec1a635b0)
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/50bf2066-9e79-41cd-92ba-e4bec1a635b0)  
+
 
 10. Vamos criar primeiramente o app de back end,  digite o nome de sua preferência no caso deste tutorial utilizei o nome backend e clique em registrar,
 
-    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/ce444cb5-4c31-4bed-afe1-9c509c399925)
+     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/ce444cb5-4c31-4bed-afe1-9c509c399925)
+       
+
 
 11. Após a criação você tera a página conforme abaixo exibida
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/3b76771e-90e5-4270-bf51-d93c65064d47)
+
+12. Acesse a pagina "Expose an API" no menu esquerdo e clique em "Add a scope" no exemplo manteremos, nao iremos alterar o valor do  Application ID URI e utilizaremos conforme sugerido pela microsoft, clique em "Save and continue"
+
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/99cc6522-5198-4a03-b16c-faeb9c1c4829)
     
 
-13. Abra uma nova ABA para nao perdermos a aba da aplicação criada e faça o mesmo processo para nossa aplicação cliente que vai acessar a API protegida, ou seja, nosso consumer, digite o nome de sua preferência no caso deste tutorial utilizei o nome client-app e clique em registrar
+14. Após criar o backend, abra uma nova aba no navegador e realize o mesmo processo para criarmos o app registration do Cliente, que será nossa API consumidora do APIM, para este app register, digite o nome de sua preferência, no caso deste tutorial utilizei o nome client-app e clique em registrar
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/58bb97ae-b681-45b8-aa65-019b05d61514)
 
 
-11. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
+15. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
 
   
-12. as 
+16. Após a criação 
 
 ```
 function test() {
