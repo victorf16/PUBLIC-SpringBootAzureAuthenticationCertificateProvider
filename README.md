@@ -94,16 +94,29 @@
 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/0f7dce0b-8180-414d-9be1-2859e72d8af6)
 
-8. Após criar o endpoint, vamos criar ao App BackEnd e o App Client para utilizarmos no APIM, para isso, acesse app registrations no painel de busca do azure e cria um novo app registration clicando em "new registration" no sinal de + 
+8. Após criar o endpoint, vamos criar ao App BackEnd e o App Client para utilizarmos no APIM, para isso, acesse app registrations no painel de busca do azure e digite app registration e clique para abrir o menu 
 
    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/2111a384-21fa-4624-8574-7768bafe6627)
 
+9. Apos navegar ate app registrations, crie um novo app registration clicando em "new registration" no sinal de + 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/50bf2066-9e79-41cd-92ba-e4bec1a635b0)
 
-  
+10. Vamos criar primeiramente o app de back end,  digite o nome de sua preferência no caso deste tutorial utilizei o nome backend e clique em registrar,
 
-10. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
-   
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/ce444cb5-4c31-4bed-afe1-9c509c399925)
+
+11. Após a criação você tera a página conforme abaixo exibida
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/3b76771e-90e5-4270-bf51-d93c65064d47)
+    
+
+13. Abra uma nova ABA para nao perdermos a aba da aplicação criada e faça o mesmo processo para nossa aplicação cliente que vai acessar a API protegida, ou seja, nosso consumer, digite o nome de sua preferência no caso deste tutorial utilizei o nome client-app e clique em registrar
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/58bb97ae-b681-45b8-aa65-019b05d61514)
+
+
+11. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
+
+  
+12. as 
 
 ```
 function test() {
