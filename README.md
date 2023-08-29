@@ -144,8 +144,29 @@
 19. Selecione o default e clique em Add permissions
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/1fe20053-b8f1-44ac-989e-854c30c71ea4)
 
+20. Assim como feito para o backend, altere o manifest também do client-app e altere o valor de "accessTokenAcceptedVersion": null para "accessTokenAcceptedVersion": 2,
 
-20. 
+ ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/2f51049a-daba-4f7f-b48b-292754a50525)
+
+
+20. NAvegue para a área de Certificates & secrets, neste menu criaremos um secret para armazenarmos em nosso APIM e adicionaremos o certificado que será utilizado pela nossa aplicação no momento da chamada dos endpoints, primeiro vamo criar o segredo, clique em Add secret e atribua um display name para ele e a data de expiração desejada, lembranod que após a expiração será necessário criar outro secret, nao esqueça de salvar o value pois só sera apresentado uma única vez, salve em algum lugar
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/f6ec84e1-2da8-489a-8161-f19176473e77)
+
+21. Salve o segredo do campo Value
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/2ac1340e-99cd-44fa-8a98-ed69fcd7d740)
+
+22. Agora vamos importar o nosso certificado crt, clique Upload certificate
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/335eef0e-9748-42a9-8021-8709a8c672cd)
+
+
+23. 
+
+
+    
+    
 
 ```
 function test() {
