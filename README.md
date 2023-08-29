@@ -108,8 +108,11 @@
        
 
 
-11. Após a criação você tera a página conforme abaixo exibida
-    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/3b76771e-90e5-4270-bf51-d93c65064d47)
+11. Após a criação você tera a página conforme abaixo exibida, copie as informações Application (client) ID e Directory (tenant) ID e cole em algum lugar pois utilizaremos esses valores quando criarmos o nosso client-app para darmos as devidas permissões
+
+ 
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/2e4a0f45-9dd1-49ff-96b6-0e2b877cb29c)
+
 
 12. Acesse a pagina "Expose an API" no menu esquerdo e clique em "Add a scope", vocÊ será redirecionado ao menu para adicionar uma nova "URI" no exemplo nao iremos alterar o valor do Application ID URI que será semelhante ao o da figura abaixo, clique em "Save and continue"
 
@@ -119,15 +122,26 @@
 
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/16fd37b7-f387-4e33-99ef-eddcc485cb5f)
 
+14. Após criar a URI e Escopo, navegue até Manifest e altere o valor de "accessTokenAcceptedVersion": null para "accessTokenAcceptedVersion": 2,
+    com isso poderemos utilizar o oauth2 para autenticaçaõ
 
-15. Após criar o backend, abra uma nova aba no navegador e realize o mesmo processo para criarmos o app registration do Cliente, que será nossa API consumidora do APIM, para este app register, digite o nome de sua preferência, no caso deste tutorial utilizei o nome client-app e clique em registrar
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/531f0785-2c13-47e7-bfa6-9ac286ad4578)
+
+
+16. Após criar o backend, abra uma nova aba no navegador e realize o mesmo processo para criarmos o app registration do Cliente, que será nossa API consumidora do APIM, para este app register, digite o nome de sua preferência, no caso deste tutorial utilizei o nome client-app e clique em registrar
     ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/58bb97ae-b681-45b8-aa65-019b05d61514)
 
 
-16. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
+17. Após a criação, preisaremos dar a permissão para o nosso client-app o backend app, va na sessão de "API permissions" e clique em "Add a permission"
+
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/e4930ea1-5eb0-4cfd-ac47-a2d77fb0b890)
+
+18. Após
+
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/1cbc7cc4-c19e-4663-850f-2be63cbf4637)
 
   
-17. Após a criação 
+18. Após a criação 
 
 ```
 function test() {
