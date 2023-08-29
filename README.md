@@ -187,7 +187,10 @@
  
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/f515cbd0-f225-404d-98d6-cc7deae2df6a)
 
-    
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/832b8fc6-8266-4a99-93de-7994f45720a6)
+
+26. Copie os valores de "Authorization code grant flow"
+
 
 ```
 function test() {
