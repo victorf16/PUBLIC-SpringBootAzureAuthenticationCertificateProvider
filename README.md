@@ -10,7 +10,6 @@
   
  * Consideramos o Azure APIM, arquivos de implementação terraform armazenados na pasta Templates > IaC
 
- * 
 ## Arquitetura final
 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificate-/assets/28166733/f4d87fab-ab47-40b3-a6e3-680b58e3ed1c)
@@ -23,20 +22,16 @@
 1. Implemente o APIM conforme terraform terraform.apim.tf localizados no diretóro te templates de infraestrutura
 2. Após criar o APIM (demora em torno de 25 minutos) você deve criar uma nova API clicando na blade de APIs e criar uma nova API em +Add API ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/74eb6831-ecf0-458a-b8a9-3df010268900)
 
-3. Após insira as informações necessárioas para o seu entpoint, neste exemplo utilize i o displayname soma
+3. Após insira as informações necessárioas para o seu entpoint, neste exemplo utilize i o displayname soma, pois na nossa aplicação "provider" possui um método post para SOMA de 2 números one iremos enviar em formato json POST
  ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/cc8d2fc2-07aa-452d-91e7-47d2e1c09875)
 
 
 4. Habilite o Oauth2
+   
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/e53af5cd-91c8-44ab-9884-e1059f7e2c56)
 
 5 Após navegue até all operations e clique em base 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/1fa7a428-b292-4f31-bdb1-27ea8b540b4c)
-
-´´´´ java
-
-
-
 
 
 <!-- 
@@ -62,6 +57,7 @@
     - Comments within policy elements are not supported and may disappear. Place your comments between policy elements or at a higher level scope. 
 
 -->
+
 <policies>
     <inbound>
         <base />
@@ -93,10 +89,13 @@
 6. CLique em add operation e crie um método POST 
    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/a4930f3e-8d7a-48b8-a4bf-247eee4c2862)
 
-7. 
+7. Para o passo 7, insira o endereço do WEBAPP backend que ficará protegido pelo APIM, no  caso deste exemplo, inserir o endereço único do seu webapp criado, no meu exemplo http://webapp-dev-apimwebappterraform.azurewebsites.net
+  
 
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/0f7dce0b-8180-414d-9be1-2859e72d8af6)
 
+8. Após a criação, é necessário habilitar o Oauth2 no APIM e atribuir ao endpoint criado acima, primeiro vamos habilitar o oauth 2
+   
 
 ```
 function test() {
