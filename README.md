@@ -162,10 +162,17 @@
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/335eef0e-9748-42a9-8021-8709a8c672cd)
 
 
-23. 
-
-
+23. Após a criação, acesse novamente o APIM e clique na sessão  OAuth 2.0 + OpenID Connect para configurarmos a habilitarmos o Oauth2 no azure APIM
     
+
+24. Adicione o nome e id activedirectory conforme abaixo
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/61b8787d-fe63-4d93-87f3-31358dd83840)
+
+25. Preenchaos campos Authorization endpoint URL e Authorization endpoint URL conforme valores abaixo,
+26. 
+ 
+    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/f515cbd0-f225-404d-98d6-cc7deae2df6a)
+
     
 
 ```
