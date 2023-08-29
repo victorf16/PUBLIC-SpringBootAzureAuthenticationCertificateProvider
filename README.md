@@ -168,10 +168,24 @@
 24. Adicione o nome e id activedirectory conforme abaixo
 ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/61b8787d-fe63-4d93-87f3-31358dd83840)
 
-25. Preenchaos campos Authorization endpoint URL e Authorization endpoint URL conforme valores abaixo,
-26. 
+25. Preenchaos campos CONFORME valores abaixo,
  
-    ![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/f515cbd0-f225-404d-98d6-cc7deae2df6a)
+ Authorization endpoint URL
+ https://login.microsoftonline.com/COLE SEU TENANT ID AQUI/oauth2/v2.0/authorize
+
+ Token endpoint URL
+ https://login.microsoftonline.com/COLE SEU TENANT ID AQUI/oauth2/v2.0/token
+
+ Default scope 
+ "cole o default scope da aplicaçao backend que você copiou nos passos anteriores"
+
+ Client ID
+ "Cole o client ID do client-app"
+
+ Client secret
+ "cole o secret que você gerou
+ 
+![image](https://github.com/victorf16/PUBLIC-SpringBootAzureAuthenticationCertificateProvider/assets/28166733/f515cbd0-f225-404d-98d6-cc7deae2df6a)
 
     
 
